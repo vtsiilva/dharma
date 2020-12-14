@@ -1,4 +1,25 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+ul {
+    list-style-position: inside;
+}
+
 .btn-pink {
     background-color: pink;
 }
-    
+
+.icones a {
+    font-size: 30px;
+    color: black;
+    margin: 0 5px;
+}
+
+.icones a:hover {
+    color: darkgray;
+}
