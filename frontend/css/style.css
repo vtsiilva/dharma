@@ -23,3 +23,36 @@ ul {
 .icones a:hover {
     color: darkgray;
 }
+
+label.error {
+    color: red;
+    font-size: 12px;
+}
+
+.topo-fixo{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: black !important;
+    transition: 2s;
+}
+
+.topo-fixo .nav-link{
+    color: white !important;
+}
+
+.topo-fixo .navbar-brand{
+    filter: invert(100);
+}
+
+#info{
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    background-color: rgb(223, 219, 219);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
